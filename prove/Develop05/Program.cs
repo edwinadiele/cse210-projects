@@ -196,7 +196,6 @@ namespace EternalQuest
             Console.WriteLine("Share this program to family, friends and loved ones");
             Console.WriteLine();
             Console.WriteLine("Eternal Quest Menu:");
-            Console.WriteLine("Choose an option (eg). 1, 2, 3, 4, 5, 6, 7:");
             Console.WriteLine("1. Create New Goal");
             Console.WriteLine("2. Record Event");
             Console.WriteLine("3. Show Goals");
@@ -204,7 +203,7 @@ namespace EternalQuest
             Console.WriteLine("5. Load Goals");
             Console.WriteLine("6. Show Score");
             Console.WriteLine("7. Exit");
-            Console.Write("Choose an option: ");
+            Console.Write("Choose an option: (eg). 1, 2, 3, 4, 5, 6, 7:");
         }
 
         private void CreateNewGoal()
